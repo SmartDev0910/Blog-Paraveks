@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@adonisjs/validater' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @adonisjs/validater
+8 silly fetchNamedPackageData @adonisjs/validater
+9 silly mapToRegistry name @adonisjs/validater
+10 silly mapToRegistry scope (from package name) @adonisjs
+11 verbose mapToRegistry no registry URL found in name for scope @adonisjs
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@adonisjs/validater',
+14 silly mapToRegistry   scope: '@adonisjs',
+14 silly mapToRegistry   escapedName: '@adonisjs%2fvalidater',
+14 silly mapToRegistry   name: '@adonisjs/validater',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/@adonisjs%2fvalidater
+16 verbose request uri https://registry.npmjs.org/@adonisjs%2fvalidater
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 2:57:17 AM
+19 verbose request id dd4453d8517a52e4
+20 http request GET https://registry.npmjs.org/@adonisjs%2fvalidater
+21 http 404 https://registry.npmjs.org/@adonisjs%2fvalidater
+22 verbose headers { 'content-type': 'application/json',
+22 verbose headers   'cache-control': 'max-age=0',
+22 verbose headers   'content-length': '21',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Tue, 21 Nov 2017 02:57:18 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-nrt6121-NRT',
+22 verbose headers   'x-cache': 'MISS',
+22 verbose headers   'x-cache-hits': '0',
+22 verbose headers   'x-timer': 'S1511233038.845259,VS0,VE180' }
+23 silly get cb [ 404,
+23 silly get   { 'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=0',
+23 silly get     'content-length': '21',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Tue, 21 Nov 2017 02:57:18 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-nrt6121-NRT',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1511233038.845259,VS0,VE180' } ]
+24 silly fetchPackageMetaData Error: Not found : @adonisjs/validater
+24 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+24 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+24 silly fetchPackageMetaData  error for @adonisjs/validater { Error: Not found : @adonisjs/validater
+24 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+24 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: '@adonisjs/validater', statusCode: 404, code: 'E404' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: Not found : @adonisjs/validater
+29 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+29 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+29 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+29 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+29 verbose stack     at emitTwo (events.js:106:13)
+29 verbose stack     at Request.emit (events.js:191:7)
+29 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+29 verbose stack     at emitOne (events.js:96:13)
+29 verbose stack     at Request.emit (events.js:188:7)
+29 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+30 verbose statusCode 404
+31 verbose pkgid @adonisjs/validater
+32 verbose cwd /home/ubuntu/workspace/projects/adonis40blog
+33 error Linux 4.9.17-c9
+34 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "install" "@adonisjs/validater"
+35 error node v6.11.2
+36 error npm  v3.10.10
+37 error code E404
+38 error 404 Not found : @adonisjs/validater
+39 error 404
+40 error 404 '@adonisjs/validater' is not in the npm registry.
+41 error 404 You should bug the author to publish it (or use the name yourself!)
+42 error 404 Note that you can also install from a
+43 error 404 tarball, folder, http url, or git url.
+44 verbose exit [ 1, true ]
